@@ -1,0 +1,152 @@
+body{
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:5px;
+    padding:2px;
+}
+
+
+
+/***********
+Navation
+************/
+nav{
+    background-color:bisque;
+    position: fixed;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    list-style-type: none;
+    width: 960px;
+    width: 100%;
+    margin: 2px auto;
+    float: left;
+   
+}
+nav figure{
+    position:absolute;
+    top: -20px;
+    left: 10px;
+  
+}
+nav img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid black;
+    
+    
+}
+nav h2{
+    float:left;
+  
+    color:red;
+    margin-top: 230px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+    position: relative;
+}
+.primary-nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    top: 10px;
+    position: relative;
+}
+
+.primary-nav >li{
+float: left;
+text-decoration: none;
+list-style-type: none;
+}
+.primary-nav >li >a{
+    float: left;
+    padding: 25px 0;
+    width: 150px;
+    height: 10px;
+    border:1px solid black;
+    margin-right:30px;
+    border-radius: 30px;
+}
+nav li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #766e65;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    -webkit-transition: 0.15s background-color linear;
+    transition:0.15s background-color linear;
+    text-decoration: none;
+
+    
+}
+nav li a:focus,
+nav li a:hover,
+nav li a:active{
+    background-color: #eb2428;
+    color:#fff;
+}
+.primary-nav{
+    float: right;
+}
+
+/************
+Drop Down Menu 
+**************/
+.has-submenu ul{
+    position: absolute;
+    top: 70px;
+    padding:  0;
+    background-color: #cornsilk;
+    width: 150px;
+    overflow: hidden;
+    display: none;
+
+
+}
+.has-submenu a{
+    display: block;
+    padding: 20px 0;
+  
+    
+
+}
+.has-submenu:hover ul,
+.has-submenu:focus ul{
+    display: block;
+}
+/***********
+Intro-Section
+************/
+.intro-section{
+    padding:0;
+    margin-top: 300px;
+    width: 100%;
+    height: auto;
+}
+    
+.intro{
+    width: 48%;
+    float: left;
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+    padding:2px auto;
+
+}
+.main-content{
+    width:100%;
+    margin: 20px auto;
+    
+}
+.column{
+    width: 33%;
+    float: left;
+    background-color:blanchedalmond;
+    margin:5px auto;
+    padding: 10px 2.5px;
+
+}
+
+
